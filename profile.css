@@ -1,0 +1,86 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
+}
+main{
+    width: 30%;
+    height: 750px;
+
+    margin: 80px auto;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+}
+.profile{
+    height: 40px;
+    width: 80px;
+    border-radius: 100%;
+    padding: 40px 0px 0px 38%;
+    
+
+}
+.profile img{
+    
+    border-radius: 100%;
+    height: 80px;
+    
+    
+    
+}
+.text{
+    margin-top: 120px;
+    text-align: center;
+    
+}
+.text span{
+    padding-bottom: 10px;
+    color:  hsl(75, 94%, 57%) ;
+}
+.text h1{
+    color:  hsl(0, 0%, 100%);
+    padding-bottom: 10px;
+}
+.sub{
+    text-align: center;
+    color:  hsl(0, 0%, 100%);
+    padding-top: 40px;
+
+}
+.grid{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    
+    
+    margin-top: 30px;
+}
+.grid div{
+    display: grid;
+    align-content: center;
+    
+
+    border-radius: 10px;
+    width: 70%;
+    height: 50px;
+    color: white;
+    justify-content: center;
+    background-color: hsl(0, 0%, 20%);
+    
+    
+    
+    
+}
+
+
+
+
